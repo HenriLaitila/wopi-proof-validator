@@ -6,7 +6,7 @@ const signatureChecker = require("./signatureChecker");
 const twentyMinutes = 20 * 60 * 1000;
 
 module.exports = {
-    check: function(input, signatures, proofKeys, ignoreTime) {
+    check: function(input, signatures, proofKeys/*, ignoreTime*/) {
         debug("input", input);
         //if(ignoreTime){
         //    console.warn("Don't pass ignoreTime in production!")
